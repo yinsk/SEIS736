@@ -20,6 +20,6 @@ Q1:
  
  Q3: How many map tasks were used? Why did the system pick this number?
  
- 
+ 4 tasks，because the task was run against 4 files: Comedies, histories, poems, tragedies.
  
  
