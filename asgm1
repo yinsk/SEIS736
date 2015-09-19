@@ -1,0 +1,25 @@
+Here are the steps to use for asgm1
+
+Q1:
+
+ $ cd ~/workspace/wordcount/src  //change directory
+ 
+ $ hadoop jar wc.jar stubs.WordCount shakespeare wordcounts  //run WC against shakepeare directory
+ 
+ $ hadoop fs -ls wordcounts   //Review	the	result
+ 
+ $ hadoop fs -cat wordcounts/part-r-00000 | less  //View	the	contents	of	the	output
+ 
+ $ hadoop fs -rm -r wordcounts pwords //Clean	up	the	output	files. If you want to rerun the task, you have to do this step. 
+ 
+ Go to VM and open firefox enter http://localhost:50030/
+ 
+ Q2:How long did it take your job to run?
+ 
+ Can find in job track page.
+ 
+ Q3: How	many map tasks were used? Why did the system pick this number?
+ 
+ 
+ 
+ 
