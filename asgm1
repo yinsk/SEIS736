@@ -1,7 +1,14 @@
 Here are the steps to use for asgm1
 
 Q1:
-
+ //Lab 1 content
+ 
+ //following lines are : unziping shakespeare and put files into hadoop file system.
+ $ cd ~/training_materials/developer/data  
+ $ tar zxvf shakespeare.tar.gz  //unzip
+ 
+ 
+ 
  $ cd ~/workspace/wordcount/src  //change directory
  
  $ hadoop jar wc.jar stubs.WordCount shakespeare wordcounts  //run WC against shakepeare directory
