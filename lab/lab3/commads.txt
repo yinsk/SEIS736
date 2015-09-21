@@ -1,0 +1,11 @@
+$ hadoop jar avgwordlength.jar stubs.AvgWordLength shakespeare wordlengths
+
+$ hadoop fs -cat wordlengths/*
+
+$ hadoop fs -rm -r wordlengths
+
+
+
+$ cd workspace
+
+$ mkdir exercise

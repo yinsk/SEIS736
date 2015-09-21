@@ -1,0 +1,51 @@
+﻿Here are the steps to use for asgm1
+
+Q1:
+ //Lab 1 content: unziping shakespeare and put files into hadoop file system.
+ 
+ $ cd ~/training_materials/developer/data  
+ $ tar zxvf shakespeare.tar.gz  //unzip
+ $ hadoop fs -put shakespeare /user/training/shakespeare   //Insert files into HDFS (Hadoop Distributed File System)
+ $ hadoop fs -mkdir weblog  //Create a web server log directory
+ $ gunzip -c access_log.gz | hadoop fs -put - weblog/access_log  //put logs into log directory we create
+ $ hadoop fs -mkdir testlog //Create a test log directory 
+ $ gunzip -c access_log.gz | head -n 5000 | hadoop fs -put - testlog/test_access_log
+ $ hadoop fs -rm shakespeare/glossary  //Delete glossary for this homework
+ $ hadoop fs -ls shakespeare
+//Lab 1 content end 
+
+//Lab 2 content: Compile the WordCount java files
+
+ $ cd ~/workspace/wordcount/src  //change directory
+ $ javac -classpath `hadoop classpath` stubs/*.java  //Compile
+ $ jar cvf wc.jar stubs/*.class //Collect your compiled Java files into a JAR file
+
+ 
+ $ hadoop jar wc.jar stubs.WordCount shakespeare wordcounts  //run WC against shakepeare directory in hadoop
+ 
+ $ hadoop fs -ls wordcounts   //Review the result
+ 
+ $ hadoop fs -cat wordcounts/part-r-00000 | less  //View the contents of the output
+ 
+ $ hadoop fs -rm -r wordcounts pwords //Clean up the output files. If you want to rerun the task, you have to do this step. 
+ 
+ Go to VM and open firefox enter http://localhost:50030/
+ 
+Q5:
+
+$ cd ~/training_materials/developer/data  //go to linux file system and find directory contain shakespeare 
+
+$ wc comedies
+$ wc histories
+$ wc poems
+$ wc tragedies
+
+Q6:
+
+$ hadoop fs -ls wordcounts
+
+Q9:
+
+$ hadoop fs -get wordcounts/part-r-00000 ~/training_materials/developer/data     //copy the HDFS file to linux file system
+
+$ wc part-r-00000
