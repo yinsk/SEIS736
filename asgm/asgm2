@@ -1,0 +1,7 @@
+commands
+
+$ hadoop jar maxwordlength.jar stubs.MaxWordLength shakespeare wordmax
+
+$ hadoop fs -cat wordmax/*
+
+$ hadoop fs -rm -r wordmax
