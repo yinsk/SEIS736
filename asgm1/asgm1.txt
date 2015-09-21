@@ -33,7 +33,8 @@ Q1:
  
 Q5:
 
-$ cd ~/training_materials/developer/data  
+$ cd ~/training_materials/developer/data  //go to linux file system and find directory contain shakespeare 
+
 $ wc comedies
 $ wc histories
 $ wc poems
@@ -45,5 +46,6 @@ $ hadoop fs -ls wordcounts
 
 Q9:
 
-$ hadoop fs -get wordcounts/part-r-00000 ~/training_materials/developer/data
+$ hadoop fs -get wordcounts/part-r-00000 ~/training_materials/developer/data     //copy the HDFS file to linux file system
+
 $ wc part-r-00000
