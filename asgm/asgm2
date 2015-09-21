@@ -1,7 +1,15 @@
 commands
 
+Q2: a-b
 $ hadoop jar maxwordlength.jar stubs.MaxWordLength shakespeare wordmax
 
 $ hadoop fs -cat wordmax/*
 
 $ hadoop fs -rm -r wordmax
+
+
+Q2: c
+$ hadoop jar maxwordlength2.jar stubs.MaxWordLength2 shakespeare wordmax2
+
+$ hadoop fs -cat wordmax2/*
+
