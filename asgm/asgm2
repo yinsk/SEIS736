@@ -13,3 +13,19 @@ $ hadoop jar maxwordlength2.jar stubs.MaxWordLength2 shakespeare wordmax2
 
 $ hadoop fs -cat wordmax2/*
 
+Q2: d
+
+Idea: write another two if statement, 
+
+  wordArray = woradArry[]
+  
+  if wordlength >= maxwordlength {
+    
+    if wordlength = maxwordlength { 
+    wordArray [] +
+    }
+    
+    else{
+    wordArray = new wordArry [word]
+    }
+  }
