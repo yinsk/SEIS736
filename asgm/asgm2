@@ -17,15 +17,15 @@ Q2: d
 
 Idea: write another two if statement, 
 
-  wordArray = woradArry[]
+  wordList = woradList[]
   
   if wordlength >= maxwordlength {
     
     if wordlength = maxwordlength { 
-    wordArray [] +
+    wordList [] +
     }
     
     else{
-    wordArray = new wordArry [word]
+    wordList = new wordList [word]
     }
   }
