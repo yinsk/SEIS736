@@ -1,27 +1,27 @@
 cat: `wordmax2/_logs': Is a directory
-a	Anthropophaginian
-b	bloodshedding
-c	circumscription
-d	distinguishment
-e	enfranchisement
-f	Flibbertigibbet
-g	Gloucestershire
-h	honorificabilitudinitatibus
-i	indistinguishable
-j	justification
-k	Killingworth
-l	Leicestershire
-m	misinterpreting
-n	Northamptonshire
-o	Oscorbidulchos
-p	prognostication
-q	qualification
-r	reconciliation
-s	superstitiously
-t	transformations
-u	undistinguishable
-v	voluptuousness
-w	wretchedness
-x	Xanthippe
-y	yesternight
-z	Zenelophon
+a	17	Anthropophaginian
+b	13	bloodshedding
+c	15	circumscription
+d	15	distinguishment
+e	15	enfranchisement
+f	15	Flibbertigibbet
+g	15	Gloucestershire
+h	27	honorificabilitudinitatibus
+i	17	indistinguishable
+j	13	justification
+k	12	Killingworth
+l	14	Leicestershire
+m	15	misinterpreting
+n	16	Northamptonshire
+o	14	Oscorbidulchos
+p	15	prognostication
+q	13	qualification
+r	14	reconciliation
+s	15	superstitiously
+t	15	transformations
+u	17	undistinguishable
+v	14	voluptuousness
+w	12	wretchedness
+x	9	Xanthippe
+y	11	yesternight
+z	10	Zenelophon

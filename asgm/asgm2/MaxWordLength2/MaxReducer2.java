@@ -13,7 +13,7 @@ public class MaxReducer2 extends Reducer<Text, Text, Text, Text> {
       throws IOException, InterruptedException {
 
     /*
-     * The reducer is to find the max record(word itself) for each input
+     * The reducer is to find the max record(word length and an example) for each input
      */
 	  
 	  int wordLength = 0;
@@ -32,7 +32,7 @@ public class MaxReducer2 extends Reducer<Text, Text, Text, Text> {
 		  }
 	  }
 	  	  
-	  text.set(longword);
+	  text.set(max+ "	" + longword);
 	  
 	  context.write(key, text);
 	  
