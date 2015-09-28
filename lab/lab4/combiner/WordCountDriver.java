@@ -30,7 +30,7 @@ public class WordCountDriver extends Configured implements Tool {
     job.setJobName("Word Count Driver");
 
     /*
-     * TODO implement
+     * This lab is to add an combiner to the WC from lab 3
      */
     
     FileInputFormat.setInputPaths(job, new Path(args[0]));
