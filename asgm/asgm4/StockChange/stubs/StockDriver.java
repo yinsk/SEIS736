@@ -34,7 +34,7 @@ public class StockDriver {
     job.setOutputValueClass(FloatWritable.class);
 
     /* 
-     * TODO: implement (reducers and partitioner)
+     * implement reducers and partitioner
      */
     job.setNumReduceTasks(26);
     job.setPartitionerClass(StockPartitioner.class);
