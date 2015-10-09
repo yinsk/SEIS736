@@ -59,7 +59,7 @@ public class TestStock {
 
     /*
      * 
-     * TODO: implement
+     * TODO: 
      */
 	  mapDriver.withInput(new LongWritable(1), new Text("NYSE,ZTR,2010-02-08,3.75,3.81,3.72,3.78,298200,3.78"));
 	  mapDriver.withOutput(new Text("ZTR"), new FloatWritable((float) 2.4193525));
@@ -73,9 +73,7 @@ public class TestStock {
   public void testReducer() {
 
     /*
-     * For this test, the reducer's input will be "cat 1 1".
-     * The expected output is "cat 2".
-     * TODO: implement
+     * TODO: 
      */
 	  List<FloatWritable> values = new ArrayList<FloatWritable>();
 	  	values.add(new FloatWritable((float) 2.4193525));
@@ -94,15 +92,13 @@ public class TestStock {
   public void testMapReduce() {
 
     /*
-     * For this test, the mapper's input will be "1 cat cat dog" 
-     * The expected output (from the reducer) is "cat 2", "dog 1". 
-     * TODO: implement
+     *  test for StockDriver, test if unclean data can pass test
      */
 	  mapReduceDriver.withInput(new LongWritable(1), new Text("NYSE,ZTR,2010-02-08,3.75,3.81,3.72,3.78,298200,3.78"));
 	  mapDriver.withInput(new LongWritable(1), new Text("NYSE,ZTR,2010-02-08,3.75,3.81,3.80,3.78,298200,3.78"));
 	  mapDriver.withInput(new LongWritable(1), new Text( "NYSE,AAA,2010-02-08,3.75,3.81,3.72,3.78,298200,3.78"));
 	  mapDriver.withInput(new LongWritable(1), new Text("Did you check for clean data?"));
-	  mapReduceDriver.addOutput(new Text("ZTR"), new FloatWritable((float) 2.4193525));
+	  mapReduceDriver.addOutput(new Text("ZTR"), new FloatWritable((((float) 3.81 - (float) 3.72) * 100 / (float) 3.72)));
 	  mapDriver.addOutput(new Text("AAA"), new FloatWritable((((float) 3.81 - (float) 3.72) * 100 / (float) 3.72)));
 	  mapReduceDriver.runTest();
   }
