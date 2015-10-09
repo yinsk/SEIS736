@@ -10,7 +10,7 @@ public class StockPartitioner<K2, V2> extends Partitioner<Text, FloatWritable> {
 
   public int getPartition(Text key, FloatWritable value, int numReduceTasks) {
     /*
-     * TODO implement
+     * implement reducers and partitioner
      *
      */
 	 String s = key.toString();
