@@ -1,0 +1,12 @@
+cd ~/training_materials/developer/data
+gunzip -c access_log.gz | hadoop fs -put - weblog/access_log
+gunzip -c access_log.gz | head -n 5000 | hadoop fs -put - testlog/test-access_log
+
+
+hadoop jar counters.jar stubs.ImageCounter /user/training/testlog counter
+
+hadoop fs -rm -r counter  
+
+hadoop jar counters.jar stubs.ImageCounter /user/training/weblog counter2
+
+hadoop fs -rm -r counter2     

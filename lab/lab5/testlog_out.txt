@@ -1,0 +1,9 @@
+Use dynamic:
+Number of gif 837
+Number of jpeg 840
+Number of other 3323
+
+Use static:
+Number of gif 837
+Number of jpeg 840
+Number of other 3323
