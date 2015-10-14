@@ -2,5 +2,6 @@ $ hadoop jar TweetCount.jar stubs.TweetCountDriver /SEIS736/tweets tweetcount
 
 $ hadoop jar TweetClean.jar cleanup.TweetCleanDriver ./tweetcount tweetclean
 
+$ hadoop fs -cat tweetclean/* | head -100
 
 
