@@ -7,8 +7,8 @@ Q1:
  $ tar zxvf shakespeare.tar.gz  //unzip
  $ hadoop fs -put shakespeare /user/training/shakespeare   //Insert files into HDFS (Hadoop Distributed File System)
  $ hadoop fs -mkdir weblog  //Create a web server log directory
- $ gunzip -c access_log.gz | hadoop fs -put - weblog/access_log  //put logs into log directory we create
- $ hadoop fs -mkdir testlog //Create a test log directory 
+ $ gunzip -c access_log.gz | hadoop fs -put - weblog/access_log  
+ $ hadoop fs -mkdir testlog 
  $ gunzip -c access_log.gz | head -n 5000 | hadoop fs -put - testlog/test_access_log
  $ hadoop fs -rm shakespeare/glossary  //Delete glossary for this homework
  $ hadoop fs -ls shakespeare
