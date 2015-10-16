@@ -36,20 +36,11 @@ public class TweetCountMapper extends Mapper<LongWritable, Text, Text, IntWritab
 		String[] record = value.toString().split("\\t");
 		
 		if(record.length==5){
-		/*
-		 * The line.split("\\W+") call uses regular expressions to split the
-		 * line up by non-word characters.
-		 * 
-		 */
 		
 			try{
 				for (String word : record[1].split("\\W+")) {
 					if (word.length() > 0) {
 		
-						/*
-						 * Call the write method on the Context object to emit a key and
-						 * a value from the map method.
-						 */
 						text.set(word);
 						context.write(text, intWritable);
 						
@@ -60,11 +51,11 @@ public class TweetCountMapper extends Mapper<LongWritable, Text, Text, IntWritab
 			
 			}catch(Exception e){
 				context.getCounter(Tweet.BAD_RECORD).increment(1);
-				System.out.println("bad record");
+				
 			}
 		}else{
 			context.getCounter(Tweet.BAD_RECORD).increment(1);
-			System.out.println("not = 5");
+			
 		}
 	}
 }
