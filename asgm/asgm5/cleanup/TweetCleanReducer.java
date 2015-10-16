@@ -24,15 +24,14 @@ public class TweetCleanReducer extends Reducer<IntWritable, Text , IntWritable, 
 			throws IOException, InterruptedException {
 
 		String word = null;
-		String line = "";
+		
 		
 		for (Text value : values) {
 
 			word = value.toString();
-			
-			line = line + " " + word;
+
 		}
-		text.set(line);
+		text.set(word);
 		
 		
 		context.write(key, text);
