@@ -59,19 +59,7 @@ public class TestWordCount {
   @Test
   public void testReducer() {
 
-    /*
-     * For this test, the reducer's input will be "cat 1 1".
-     * The expected output is "cat 2".
-     * TODO: implement
-     */
-	 /*
-	  List<IntWritable> values = new ArrayList<IntWritable>();
-	  values.add( new IntWritable(1) );
-	  values.add( new IntWritable(1) );
-	  reduceDriver.withInput( new Text(“cat”), values);
-	  reduceDriver.withOutput( new Text(“cat”), new IntWritable(2) );
-	  reduceDriver.runTest();
-	  */
+
 	  List<IntWritable> values = new ArrayList<IntWritable>();
 	    values.add(new IntWritable(1));
 	    values.add(new IntWritable(1));
@@ -82,17 +70,11 @@ public class TestWordCount {
   }
 
 
-  /*
-   * Test the mapper and reducer working together.
-   */
+
   @Test
   public void testMapReduce() {
 
-    /*
-     * For this test, the mapper's input will be "1 cat cat dog" 
-     * The expected output (from the reducer) is "cat 2", "dog 1". 
-     * TODO: implement
-     */
+
 	  mapReduceDriver.withInput(new LongWritable(1), new Text("shengkai	This is a test test	2014	null"));
 	  mapDriver.withOutput(new Text("This"), new IntWritable(1));
 	  mapDriver.withOutput(new Text("is"), new IntWritable(1));
