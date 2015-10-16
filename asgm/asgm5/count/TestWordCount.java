@@ -15,52 +15,36 @@ import org.junit.Test;
 
 public class TestWordCount {
 
-  /*
-   * Declare harnesses that let you test a mapper, a reducer, and
-   * a mapper and a reducer working together.
-   */
+
   MapDriver<LongWritable, Text, Text, IntWritable> mapDriver;
   ReduceDriver<Text, IntWritable, Text, IntWritable> reduceDriver;
   MapReduceDriver<LongWritable, Text, Text, IntWritable, Text, IntWritable> mapReduceDriver;
 
-  /*
-   * Set up the test. This method will be called before every test.
-   */
+  
   @Before
   public void setUp() {
 
-    /*
-     * Set up the mapper test harness.
-     */
+
     TweetCountMapper mapper = new TweetCountMapper();
     mapDriver = new MapDriver<LongWritable, Text, Text, IntWritable>();
     mapDriver.setMapper(mapper);
 
-    /*
-     * Set up the reducer test harness.
-     */
+   
     TweetCountReducer reducer = new TweetCountReducer();
     reduceDriver = new ReduceDriver<Text, IntWritable, Text, IntWritable>();
     reduceDriver.setReducer(reducer);
 
-    /*
-     * Set up the mapper/reducer test harness.
-     */
+
     mapReduceDriver = new MapReduceDriver<LongWritable, Text, Text, IntWritable, Text, IntWritable>();
     mapReduceDriver.setMapper(mapper);
     mapReduceDriver.setReducer(reducer);
   }
 
-  /*
-   * Test the mapper.
-   */
+
   @Test
   public void testMapper() {
 
-    /*
-     * For this test, the mapper's input will be "1 cat cat dog" 
-     * TODO: implement
-     */
+
 	  mapDriver.withInput(new LongWritable(1), new Text("shengkai	This is a test test	en	Thu Oct 02 10:21:12 CDT 2014	null"));
 	  mapDriver.withOutput(new Text("This"), new IntWritable(1));
 	  mapDriver.withOutput(new Text("is"), new IntWritable(1));
@@ -71,9 +55,7 @@ public class TestWordCount {
 
   }
 
-  /*
-   * Test the reducer.
-   */
+
   @Test
   public void testReducer() {
 
