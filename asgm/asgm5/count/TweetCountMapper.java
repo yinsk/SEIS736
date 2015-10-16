@@ -52,9 +52,12 @@ public class TweetCountMapper extends Mapper<LongWritable, Text, Text, IntWritab
 						 */
 						text.set(word);
 						context.write(text, intWritable);
-						context.getCounter(Tweet.NUM_TWEETS).increment(1);
+						
 					}
 				}
+				
+				context.getCounter(Tweet.NUM_TWEETS).increment(1);
+			
 			}catch(Exception e){
 				context.getCounter(Tweet.BAD_RECORD).increment(1);
 				System.out.println("bad record");
