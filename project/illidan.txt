@@ -1,0 +1,23 @@
+1 troll priest,Sereke,Raiding Rainbows
+2 undead mage,Marsold,Tang Dynasty
+3 blood elf paladin,Macstallion,Fused
+4 blood elf deathknight,Cleftylol,Topped Off
+5 goblin hunter,Migz,The Crimson Lotus
+6 blood elf rogue,Stab,Warpath II
+7 troll druid,Entangela,This Game is SO Hard
+8 draenei paladin,Dieseltime,Green Street Hooli..
+9 blood elf priest,Iapeto,Limit
+10 pandaren priest,Scholtez,Limit
+11 blood elf rogue,Dinthdos,Advantage
+12 goblin shaman,Brightleaf,Limit
+13 blood elf priest,Dy,Warpath II
+14 blood elf priest,Zaynah,The Crimson Lotus
+15 blood elf paladin,Toxicperfume,LostTemple
+16 blood elf hunter,Ellonia,N/A
+17 troll shaman,Flametotem,no idea
+18 goblin mage,Jjmaxwell,Vindicate
+19 troll shaman,Kerf,Encore
+20 tauren warrior,Eclipser,Best Friend Forever
+21 troll warlock,Lolburgers,Toe Tags
+22 pandaren hunter,Licks,The Blood Council
+23 troll druid,Ziuatanejo,Sinfest
