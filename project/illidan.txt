@@ -1,23 +1,460 @@
-1 troll priest,Sereke,Raiding Rainbows
-2 undead mage,Marsold,Tang Dynasty
-3 blood elf paladin,Macstallion,Fused
-4 blood elf deathknight,Cleftylol,Topped Off
-5 goblin hunter,Migz,The Crimson Lotus
-6 blood elf rogue,Stab,Warpath II
-7 troll druid,Entangela,This Game is SO Hard
-8 draenei paladin,Dieseltime,Green Street Hooli..
-9 blood elf priest,Iapeto,Limit
-10 pandaren priest,Scholtez,Limit
-11 blood elf rogue,Dinthdos,Advantage
-12 goblin shaman,Brightleaf,Limit
-13 blood elf priest,Dy,Warpath II
-14 blood elf priest,Zaynah,The Crimson Lotus
-15 blood elf paladin,Toxicperfume,LostTemple
-16 blood elf hunter,Ellonia,N/A
-17 troll shaman,Flametotem,no idea
-18 goblin mage,Jjmaxwell,Vindicate
-19 troll shaman,Kerf,Encore
-20 tauren warrior,Eclipser,Best Friend Forever
-21 troll warlock,Lolburgers,Toe Tags
-22 pandaren hunter,Licks,The Blood Council
-23 troll druid,Ziuatanejo,Sinfest
+47 blood elf mage,Izalia,N/A
+48 tauren shaman,Dekurgan,Eulogy
+49 blood elf paladin,Farrs,N/A
+50 troll priest,Likewh\xc3\xb4a,Root
+51 blood elf rogue,Shank,N/A
+52 blood elf warlock,Shinafae,Blood Legion
+53 orc deathknight,Unholydevil,Advantage
+54 orc hunter,Traphappy,Friendship and Rai..
+55 troll warlock,Kaizayin,Summit
+56 troll mage,Kryzz,College Of Gaming
+57 blood elf priest,Ethonn,Safety First
+58 tauren druid,Chentauren,no idea
+59 undead deathknight,Brofficial,Get the Funk Out M..
+60 goblin shaman,Vaeuuar,Mind Games
+61 undead deathknight,Fowlplay,Violent Mentality
+62 tauren druid,Druimon,Citadel Enforcers
+63 orc hunter,Darkviva,Vindicate
+64 blood elf priest,Mughetto,N/A
+65 undead rogue,Guanxichen,Fantasia
+66 troll druid,Blatrix,RAZR
+67 blood elf warrior,Ashcore,Not Terrible
+68 blood elf mage,Ki\xc3\xa1ri,All My Brians
+69 troll druid,Divisible,N/A
+69 orc hunter,Silverain,Beautifully Chaotic
+71 tauren druid,Moothora,Angry
+72 blood elf paladin,Roibin,Encore
+73 troll warlock,Ever,Style
+74 undead deathknight,Trystero,Halfway House Gaming
+75 orc warrior,Drakmoon,RAZR
+76 orc warlock,Iodotmiss,Analysis
+77 tauren shaman,Kujatos,High Command
+78 tauren deathknight,Marscommand,Tang Dynasty
+79 undead warlock,K\xc3\xa4lcifer,Threat Issues
+80 blood elf priest,Joyle,Animus
+81 blood elf mage,Megamagee,Versatile Club
+82 blood elf paladin,Apoll\xc3\xb5,N/A
+83 blood elf paladin,Yhorik,Hour of Darkness
+84 tauren warrior,Mootalia,Warforged Battalion
+85 tauren deathknight,Azrazelv,Rack City
+86 troll druid,Ironswipe,N/A
+87 blood elf paladin,Arderie,Warpath II
+88 troll druid,Hawntd,Limit
+89 undead rogue,Yaphy,Shake Miracle
+90 blood elf hunter,Starlight,FoTM
+91 blood elf paladin,Xalzel,Threat Issues
+92 blood elf deathknight,Rinoa,Style
+91 troll shaman,Likemike,Advantage
+94 blood elf priest,Cokinpanda,Crystal Forever
+95 undead mage,Slanzhou,Moe Moe
+96 tauren druid,Jodrok,Karate Monkey Deat..
+97 orc deathknight,Crevice,Dread Ravens
+98 orc hunter,Fightsoul,Tu Mach
+99 tauren warrior,Foofi,Fused
+100 tauren paladin,Nerdsquad,FTL Recall
+101 gnome warlock,Kaylac,Cognitive Dissonance
+102 troll mage,Drarcane,Limit
+103 blood elf hunter,Khayllys,Animus
+104 undead rogue,Shadyrules,Code Geass
+105 orc warrior,Fuglychunky,Fatal Desires
+106 orc deathknight,Rustyle,Altered Time
+107 orc hunter,S\xc3\xa3vage,N/A
+108 blood elf mage,Astranaithes,Sllib Is Bad
+109 blood elf rogue,Ninjannax,Avid
+110 goblin deathknight,Ezy,N/A
+111 orc warrior,Kalelfo,N/A
+112 blood elf hunter,V\xc3\xa1lkyr\xc3\xad\xc3\xa9,Exogenesis
+113 undead mage,Stingray,Angry
+114 tauren druid,Doko,Avid
+115 tauren druid,Sephinia,FoTM
+114 tauren druid,Terse,Limit
+117 tauren druid,Flowerpower,We The North
+118 blood elf mage,Syntaxx,Mind Games
+119 troll priest,Berdine,Raiding Rainbows
+120 tauren paladin,Buhbull,N/A
+121 orc rogue,Tysta,Eulogy
+122 pandaren mage,Caliipso,Seventh Heaven
+123 orc warrior,Pastulio,Crunch
+124 troll shaman,Nasenan,Fantasia
+125 tauren paladin,Xenofile,N/A
+126 orc deathknight,Xcallibur,Flawless Execution
+127 undead priest,Silversh\xc3\xa2dow,Avid
+128 orc shaman,Cyttorak,HighFunctioningSoc..
+129 tauren druid,Iorek,Animus
+130 blood elf priest,Besthpriest,N/A
+131 troll hunter,Jizaru,N/A
+132 troll hunter,Virust,N/A
+133 tauren druid,Petty,N/A
+134 undead rogue,Probability,Summit
+135 orc hunter,Dyveriate,Limit
+136 troll mage,Logoz,Raiding Rainbows
+137 orc hunter,Appotus,Eulogy
+138 troll warlock,Cuteseventh,Shake Miracle
+139 goblin priest,Shaka,The Hidden Leaf
+140 troll shaman,Nagr\xc3\xb4m,Raiding Rainbows
+141 orc hunter,Milphunter,N/A
+142 undead mage,Maegara,Trash Mob Death Ma..
+143 blood elf paladin,Slamino,Slaminas Gold Bank..
+144 orc warrior,Neyzut,Mao Hui
+145 blood elf hunter,Myssmurder,illogical
+146 tauren paladin,Taintalust,Angry
+147 blood elf priest,Robofish,Warpath II
+148 blood elf deathknight,Kruciel,Blood Legion
+149 orc shaman,Worrel,The Bloodborn
+150 blood elf deathknight,Axphyxiates,N/A
+151 troll warlock,Haxpaxington,Big Dumb Guild
+152 blood elf hunter,Gem,Fantasia
+153 undead warlock,Turtlesrock,N/A
+154 undead deathknight,Kolodion,illogical
+155 goblin deathknight,Koromon,illogical
+156 tauren shaman,Felikks,Advantage
+157 tauren druid,Azran,LF DUEL
+158 goblin priest,Nadia,Fatal Desires
+159 undead priest,Croko,Ichor
+160 undead warlock,Biso\xc3\xbc,RAZR
+161 goblin priest,Belicicily,Animus
+162 undead rogue,Nephora,Lore
+163 orc warrior,Dedman,Eulogy
+164 blood elf hunter,R\xc3\xa1zorh,N/A
+165 tauren paladin,Gingabread,Blueberry Pancake
+166 blood elf warlock,Criseae,Animals As Leaders
+167 blood elf priest,Hyacine,Blood Legion
+168 blood elf rogue,Ajhian,Fatal Desires
+169 goblin mage,Turbochan,We The North
+170 orc rogue,Adidaw\xc3\xb8w,Dead by Dawn
+171 tauren deathknight,Quakenbush,Last Pull
+172 troll druid,Joliie,FTL Recall
+173 troll priest,Spot,Ascend
+174 goblin hunter,Axit,N/A
+175 blood elf mage,\xc3\x90ali,Fatal Desires
+176 orc hunter,Valrusk,Sllib Is Bad
+177 blood elf paladin,Il,Encore
+178 tauren shaman,Chicos,Eulogy
+179 blood elf paladin,Lannafirine,Slash Cry
+180 orc deathknight,Guillitine,Imperial Guard
+181 troll rogue,Deux,N/A
+182 blood elf hunter,Fossil,Advantage
+183 blood elf paladin,Nicotinex,Krystal Front
+184 orc warlock,Legoyy,Mao Hui
+185 blood elf paladin,Beezzknees,Five years on an i..
+186 undead warrior,Kirbodin,Reclamation
+187 orc shaman,Iamshamm,Erus Proeliator
+188 undead priest,Ahze,Avid
+189 orc shaman,Theganja,Encore
+190 undead priest,Aurora,Angry
+191 troll druid,Liinxy,Blood Legion
+192 blood elf paladin,Abysslight,Eclipse Starfall
+193 blood elf deathknight,Androni,Crossed Swords
+194 undead rogue,Wretcluse,Ctrl Alt Del
+195 tauren druid,Erinea,Dry Ice
+196 blood elf deathknight,V\xc3\xa1ccinate,Prevail
+197 troll shaman,Shaman,Not Terrible
+198 troll druid,Shisnos,Topped Off
+199 troll shaman,Zurdann,Static
+200 orc shaman,Temuto,Warpath II
+201 troll rogue,Spatulahands,Warpath II
+202 blood elf hunter,Halthqt,Lords of the North
+203 blood elf priest,Punkinn,N/A
+204 undead warlock,Dborgir,Exogenesis
+205 blood elf deathknight,Velybear,Friendship and Rai..
+206 orc deathknight,Diablo,Warpath II
+207 blood elf paladin,Bion\xc3\xacx,Summit
+207 orc hunter,Sparten,Angry
+209 blood elf hunter,Occ\xc3\xa0m,Eulogy
+210 troll druid,Petmeimfuzzy,N/A
+211 blood elf priest,Malicrin,Limit
+212 blood elf priest,Layla,Immune
+213 pandaren monk,Silnarina,Cognitive Dissonance
+214 orc hunter,Bizzel,Ctrl Alt Del
+215 orc hunter,Swiften,Advantage
+216 troll rogue,Jeckt,FoTM
+217 pandaren shaman,Shangoldie,Ninja Turtlez
+218 blood elf paladin,Vithrex,No Fun Allowed
+219 blood elf warlock,Chaosburns,Static
+220 goblin warrior,Faderoll,N/A
+221 orc deathknight,Insatori,N/A
+222 goblin shaman,Gixsaw,BLOODKNIGHT REDEMP..
+223 troll druid,Bearstronaut,Fantastic
+224 undead priest,Vizini,The Crimson Lotus
+225 tauren paladin,Chanceattack,valar morghulis
+226 troll mage,Roo,Shake Miracle
+227 undead hunter,Porkitta,Smokers Only
+228 orc hunter,Centermassqt,The Bitter End
+229 blood elf paladin,Dreganomics,Nothing Personal
+230 blood elf hunter,Shoults,Encore
+230 orc deathknight,Xanadar,no idea
+232 orc deathknight,Deathnero,Sllib Is Bad
+233 troll druid,Spiritbear,Alternative Demise
+234 orc shaman,Killamor,Last Round
+235 goblin warlock,Z\xc3\xb8\xc3\xaedberg,N/A
+236 blood elf rogue,Zar,N/A
+237 troll hunter,Slugginator,Encore
+238 pandaren monk,Salapanderr,N/A
+239 tauren druid,Adardrae,We Burn
+240 blood elf hunter,Kilocentric,Not Terrible
+241 troll mage,Twicebath,Obvious Hacks
+242 blood elf hunter,Fishbonds,Best Friend Forever
+243 blood elf paladin,Uzumi,Eulogy
+244 tauren deathknight,Brigidane,KnS Storage
+245 blood elf mage,Estrestia,N/A
+246 troll druid,Maximums,Limit
+247 goblin mage,Jrrage,Topped Off
+248 tauren warrior,Paraplegique,N/A
+249 blood elf rogue,Princip,Mind Games
+250 blood elf paladin,Phoenixs,Master Plan
+251 troll druid,Hated,Exogenesis
+252 troll druid,Peekabewbies,College Of Gaming
+253 tauren druid,Moonicorn,Nothing Personal
+253 orc hunter,Blastois\xc3\xab,N/A
+255 goblin hunter,Probee,Lore
+256 tauren druid,Crreepy,Blood Legion
+257 goblin shaman,Canuckie,High Command
+258 orc warrior,S\xc3\xa0mmichmaker,Fantastic
+259 undead rogue,Kijax,Blood Bath N Beyond
+260 undead rogue,Zilas,Slash Cry
+261 tauren deathknight,Bullofterror,Predominant
+262 orc warlock,Bloodbourne,Winterfell
+263 orc hunter,Kal,Sanctum
+264 blood elf paladin,Relieable,BLOODKNIGHT REDEMP..
+265 orc hunter,Silver\xc3\xa1in,N/A
+266 orc warrior,Beighter,Wake of Chaos
+267 troll hunter,Art\xc3\xaam\xc3\xacs,Ctrl Alt Del
+268 orc warlock,Arcsupreme,Last Pull
+269 orc warlock,Zaartyn,High Command
+270 orc shaman,Suroc,Dreamium
+271 undead rogue,Chidori,Vengeance
+272 orc hunter,Krellen,The Devils Knights
+273 blood elf warrior,Futuresz,N/A
+274 blood elf priest,Whitill,Warpath II
+275 orc hunter,Trakkowned,Final Chapter
+276 tauren deathknight,Faj,Summit
+277 orc warrior,Mohrtok,N/A
+278 blood elf priest,Lipah,N/A
+279 pandaren rogue,Shiy,Samsara
+280 blood elf monk,Kns,Limit
+281 pandaren mage,Cassioppea,Danger Zone
+282 tauren paladin,Cjhms,Red Shirts
+283 orc shaman,Voltag\xc3\xa8,N/A
+284 troll mage,Fermmerus,Encore
+285 undead priest,Bellexx,no idea
+286 tauren druid,Firefish,Joy Tsin Lau
+287 blood elf paladin,Tuel,Indecisive
+288 tauren paladin,Evangelicon,Ichor
+289 tauren warrior,Taco,F L A W L E S S
+290 blood elf mage,Kaledine,N/A
+291 orc hunter,Synoptic,Last Round
+292 tauren druid,Aefriday,N/A
+293 troll mage,Rbeni,N/A
+294 blood elf mage,Empirical,Angry
+295 troll druid,Cinderseed,Avid
+296 undead rogue,Oehlerbane,Disciples of Mortis
+297 blood elf deathknight,Axeformer,We Strictly PVP II
+298 pandaren shaman,Keekoshokee,Topped Off
+299 tauren paladin,Garnde,N/A
+300 blood elf deathknight,Sequencez,Topped Off
+301 goblin warlock,Babylocket,He Man Woman Haters
+302 troll mage,Ducknukem,Drunk Run
+303 pandaren monk,Speteri,N/A
+304 blood elf priest,Amorfelicia,Final Chapter
+305 orc shaman,Atmos,Winterfell
+306 tauren shaman,Allr\xc3\xa9\xc3\xb0,TitanHorizon
+307 orc deathknight,Destructis,Convergence
+308 pandaren monk,Kaitus,Lore
+309 orc warlock,Interactiv,Obliv\xc3\xacon
+310 blood elf paladin,Dizzum,illogical
+311 orc monk,Deadserious,N/A
+312 orc deathknight,Bodasity,Trash Mob Death Ma..
+313 troll druid,Bushino,Blood Legion
+314 blood elf priest,Markwho,BE THE BEE U WANT ..
+315 troll hunter,Shoots,N/A
+316 troll druid,Trainin,no idea
+317 blood elf warrior,Realcar,N/A
+318 blood elf priest,Telissa,Lethal Reunion
+319 blood elf paladin,Fayeflawless,Eclectic
+320 tauren deathknight,Adwarfdk,Encore
+321 orc shaman,Aiorus,Crystal Forever
+322 blood elf warrior,Bunnyjump,ZZGR
+323 blood elf paladin,Dauliria,Purge
+324 troll druid,R\xc3\xa6b,N/A
+325 troll rogue,Tricae,Encore
+326 orc warlock,Orlagar,Lethal Reunion
+327 orc warlock,Parts,Death Wish
+328 troll warlock,Xeiva,Exogenesis
+329 blood elf priest,Allystria,College Of Gaming
+330 troll shaman,Girljamz,Not Terrible
+331 orc warlock,Kaeravek,Friendship and Rai..
+332 tauren deathknight,Pwnerchazz,Citadel Enforcers
+333 tauren deathknight,Deathnotice,Sllib Is Bad
+334 blood elf deathknight,C\xc3\xadrno,No Fun Allowed
+335 blood elf paladin,Xenocidic,Friendship and Rai..
+336 orc mage,Yuuri,Esoteric
+337 blood elf warrior,Sentry,Warpath II
+338 pandaren mage,Swinpink,Shake Miracle
+339 blood elf mage,Vynastar,Moe Moe
+340 goblin warlock,Dottasaurus,Obvious Hacks
+341 troll shaman,Houd,Citadel Enforcers
+342 orc warrior,Scyclone,Master Plan
+343 blood elf priest,Aeteoroa,Sanctum
+344 night elf rogue,Necrosion,Warriors from Above
+345 goblin mage,Taxe,I am the Guildmaster
+346 orc hunter,Mcste\xc3\xa5my,FTL Recall
+347 goblin priest,Gyberia,Graveyard Disciples
+348 blood elf paladin,Wildholycat,Mao Hui
+349 blood elf deathknight,Dracularen,N/A
+350 blood elf deathknight,Threalon,FoTM
+351 undead mage,Captmorgan,SGuild
+352 troll shaman,Chwez,Encore
+353 undead mage,Whitehot,no idea
+354 blood elf paladin,Kraks,Topped Off
+355 pandaren hunter,Shoobi,Danger Zone
+356 tauren druid,Askumi,The Road Not Taken
+357 troll druid,Postlapsaria,Hakuna Matata
+358 orc warrior,Bavinck,Angry
+359 troll druid,Tarsius,N/A
+360 tauren deathknight,Rottenpotato,Potatoes
+361 goblin deathknight,Runeberry,Thunder Throne
+362 undead deathknight,Rustingz,N/A
+363 troll mage,R\xc3\xa0mdas,N/A
+364 pandaren rogue,Thylacine,Threat Issues
+365 blood elf warlock,Turane,Alternative Demise
+366 blood elf paladin,Mikkii,Fused
+367 orc warlock,Zaloosh,Sllib Is Bad
+368 blood elf mage,Daninkai,Raiding Rainbows
+369 goblin hunter,Arr\xc3\xb3w,Scrubs
+370 blood elf priest,Kaleine,Ctrl Alt Del
+371 troll warlock,Cynderfox,Beautifully Chaotic
+372 blood elf hunter,Cuppuccino,Asgard
+373 goblin warlock,Geeselock,Falling Leaves
+374 troll druid,Astrality,Advantage
+375 orc warrior,Groggam,N/A
+376 undead rogue,Aszarel,Irrefutable
+377 tauren druid,Femmytaur,Last Round
+378 blood elf deathknight,Gr\xc3\xadmm,Ctrl Alt Del
+379 troll druid,Labradorite,N/A
+380 blood elf paladin,Johadys,Esoteric
+381 troll druid,Rockerr,N/A
+382 troll priest,Detto,Avid
+383 orc hunter,Nighttlord,Sllib Is Bad
+384 blood elf monk,Pandakira,Tu Mach
+385 tauren shaman,Grazhuul,N/A
+386 troll druid,Cannonfoderr,Blood Legion
+387 troll shaman,Grotzor,Infallible
+388 blood elf monk,Missf\xc3\xb0rtune,N/A
+389 troll druid,Babynv,Big Dumb Guild
+390 troll druid,Zomhealer,Overdosed
+391 blood elf deathknight,Blackensoul,N/A
+392 blood elf paladin,Xianglin,Call to Arms
+393 troll hunter,Duckhuntr,N/A
+394 troll mage,Kamaros,Thunder Raiders
+395 troll mage,Sodalitas,Mind Games
+396 orc deathknight,Eongon,BLOODKNIGHT REDEMP..
+397 blood elf paladin,Valterus,Alternative Demise
+398 goblin rogue,Korundu,Midnight Sun
+399 orc mage,Augrah,Every Kick Begins ..
+400 orc warrior,Vute,Blueberry Pancake
+401 blood elf paladin,Stomp\xc3\xabd,Babe Legion
+402 blood elf priest,Kahtiri,Encore
+403 orc shaman,Wootbringer,Angry
+404 troll monk,Pozyliaoya,This Game is SO Hard
+405 blood elf paladin,Bryah,Vengeance
+406 blood elf warrior,Jakeyxr,N/A
+407 troll hunter,Cocytan,College Of Gaming
+408 troll mage,Pauldy,N/A
+409 troll druid,Naturesmvp,N/A
+410 blood elf mage,Gyarados,Encore
+411 orc warrior,Vixtory,N/A
+412 orc warrior,Kormash,Absolute Choice
+413 goblin rogue,Revel,Advantage
+414 blood elf paladin,Gavenet,N/A
+415 undead warlock,Atreidez,Eulogy
+416 troll druid,Bramilk,Asgard
+417 orc shaman,Mokktruk,High Command
+418 undead warlock,Lukenukem,Warpath II
+419 human deathknight,Katranna,Warriors from Above
+420 blood elf hunter,Sluggsz,Momentum
+421 orc shaman,Wolfspirits,N/A
+422 blood elf paladin,Lightenupp,I am the Guildmaster
+423 blood elf priest,Megace,We The North
+424 troll shaman,Luluboom,Beautifully Chaotic
+425 blood elf deathknight,Joydarkblade,Viva Forever
+426 goblin mage,Jamesbo,Lurks Under A Bridge
+427 undead warlock,Azriath,N/A
+428 orc hunter,Wennershot,Limit
+429 blood elf hunter,Kisstehbaby,Limit
+430 blood elf priest,Deepmumu,Shake Miracle
+431 blood elf hunter,Grievouz,Topped Off
+432 human priest,Sinreay,N/A
+433 tauren paladin,Dungeon,Call to Arms
+434 pandaren warrior,Mordriid,High Command
+435 undead rogue,Ottomatic,MMOs Before Hos
+436 orc rogue,Genericrogu\xc3\xa8,N/A
+437 orc deathknight,Piair,Astro Glide
+438 blood elf priest,Ninzie,Animus
+439 troll deathknight,S\xc3\xa4bat,Dry Ice
+440 orc shaman,Packapunched,Ctrl Alt Del
+441 pandaren monk,Pandacraf,This Game is SO Hard
+442 orc warlock,Alexstrasz,Warpath II
+443 blood elf paladin,Wishmaker,Fat Kids Win at Se..
+444 troll druid,Balmothere,House Atreides
+445 blood elf warrior,Junishin,N/A
+446 undead mage,Tiz,Wicked Awesome
+447 goblin rogue,Ohnoesman,Haunted
+448 undead priest,Paytin,MINE MINE MINE
+449 troll warrior,Deathtroll,N/A
+450 blood elf paladin,Morzanee,Sanctum
+451 goblin mage,Boomkraggle,Hordehound Gang
+452 orc deathknight,Devs,N/A
+453 troll druid,Trollcadia,Encore
+454 troll druid,Furcadia,Encore
+455 troll rogue,Halafax,N/A
+456 blood elf hunter,Ayriea,Big Dumb Guild
+457 orc warrior,Talsett,Animus
+458 undead warlock,Dakaan,N/A
+459 pandaren hunter,Lzykrazee,Hakuna Matata
+460 blood elf paladin,Carrie,Valhalla Awaits
+461 troll warlock,Soymilks,N/A
+462 troll druid,Luhix,Friendship and Rai..
+463 blood elf paladin,Ilis,Fantastic
+464 troll warlock,Cobray,Encore
+465 blood elf priest,Subliminal,N/A
+466 pandaren monk,Tathamet,Topped Off
+467 blood elf paladin,H\xc3\xaa\xc3\xafmdall,no idea
+468 blood elf paladin,Scrawny,Vengeance
+469 troll mage,Mythlore,N/A
+470 blood elf paladin,Leonstrasz,Dream Nirvana
+471 orc deathknight,Zhiyun,Viva Forever
+472 troll hunter,Fsr,Advantage
+473 tauren warrior,Michaelbob,Accidentally Awesome
+474 tauren deathknight,Ujellybra,Big Dumb Guild
+475 orc hunter,Beastybow,The Facility
+476 blood elf paladin,Horikita,FTL Recall
+477 blood elf mage,Goophed,Reflection
+478 troll warlock,Ragnarolk,N/A
+479 blood elf deathknight,Stormydream,Fatal Desires
+480 blood elf hunter,Shadowsenses,College Of Gaming
+481 troll warlock,Bestspriest,N/A
+482 orc mage,Johnfrost,No Filter
+483 blood elf mage,Fay\xc3\xa8,N/A
+484 night elf druid,Krw,EnterpriseE
+485 blood elf deathknight,Jaylene,Apotheosis
+486 blood elf warlock,Illidari,Hurricane
+487 blood elf hunter,Vittoriya,Drunk Run
+488 draenei shaman,Seikhen,Warriors from Above
+489 troll warlock,Thorlok,Big Dumb Guild
+490 blood elf hunter,Raevinmane,Wretched Waifs
+491 troll mage,Sabisi,N/A
+492 blood elf hunter,Tjustice,Irrefutable
+493 blood elf rogue,Jaytusk,Fast N Easy
+494 blood elf hunter,Orangebeard,Warpath II
+495 tauren shaman,Azerbaijin,Schadenfreude
+496 orc hunter,Yourboss,N/A
+497 orc shaman,Omgtotemz,N/A
+498 blood elf priest,Shadowsbaane,WhiteShadow
+499 orc shaman,Roamingstorm,The Endless
+500 tauren druid,S\xc3\xabttle,N/A
+501 troll shaman,Rougetay,Scrubs
+502 blood elf paladin,Sinoevil,Preemption
+503 troll hunter,Riptore,Louis Vuitton
+504 orc deathknight,\xc3\x94bliter\xc3\xa0te,Big Ole Critties
+505 blood elf paladin,Innocentz,Mind Games
+506 blood elf paladin,Lusfer,Beautifully Chaotic

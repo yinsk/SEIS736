@@ -5,7 +5,7 @@ import re
 fo = open("illidan.txt", "w+")
 
 j = 0
-while j < 15:
+while j < 20:
 
     j = j+1
 
