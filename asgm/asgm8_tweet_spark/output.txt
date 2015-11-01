@@ -1,5 +1,5 @@
 
-[yin00007@hc ~]$ hadoop fs -ls
+$ hadoop fs -ls
 Found 13 items
 drwx------   - yin00007 supergroup          0 2015-10-19 19:00 .Trash
 drwxr-xr-x   - yin00007 supergroup          0 2015-10-31 19:15 .sparkStaging
@@ -14,9 +14,8 @@ drwxr-xr-x   - yin00007 supergroup          0 2015-10-16 19:07 tweetclean2
 drwxr-xr-x   - yin00007 supergroup          0 2015-10-16 15:57 tweetcount
 drwxr-xr-x   - yin00007 supergroup          0 2015-09-28 16:39 wordcount
 drwxr-xr-x   - yin00007 supergroup          0 2015-10-01 17:49 wordcount2
-[yin00007@hc ~]$ hadoop fs -cat top100RDD
-cat: `top100RDD': Is a directory
-[yin00007@hc ~]$ hadoop fs -cat top100RDD/*
+
+$ hadoop fs -cat top100RDD/*
 (14178,t)
 (13183,http)
 (12795,co)
