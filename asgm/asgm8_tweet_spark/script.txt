@@ -1,0 +1,59 @@
+val lines = sc.textFile("/SEIS736/tweets")
+
+lines.collect()
+
+res7: Array[String] = Array(DarrenDalrymple     Are you a recent computer science graduate (or similar course) looking to start your career with a global software house? Get in touch ASAP en       Thu Sep 26 08:25:42 CDT 2013    null, Tori_Mills        RT @DarrenDalrymple: Are you a recent computer science graduate (or similar course) looking to start your career with a global software hou¡­ en      Thu Sep 26 08:27:22 CDT 2013    null, McLean7_  RT @DarrenDalrymple: Are you a recent computer science graduate (or similar course) looking to start your career with a global software hou¡­ en      Thu Sep 26 08:50:21 CDT 2013    null, JamieMorrow1      RT @DarrenDalrymple: Are you a recent computer science graduate (or similar course) looking to start your career with a global software hou¡­ en      Thu Sep 26 08:59:59 CDT 2013    null, saund...
+
+
+val splitTab = lines.map(x => x.split("\\t"))
+
+splitTab.collect()
+
+res6: Array[Array[String]] = Array(Array(DarrenDalrymple, Are you a recent computer science graduate (or similar course) looking to start your career with a global software house? Get in touch ASAP, en, Thu Sep 26 08:25:42 CDT 2013, null), Array(Tori_Mills, RT @DarrenDalrymple: Are you a recent computer science graduate (or similar course) looking to start your career with a global software hou¡­, en, Thu Sep 26 08:27:22 CDT 2013, null), Array(McLean7_, RT @DarrenDalrymple: Are you a recent computer science graduate (or similar course) looking to start your career with a global software hou¡­, en, Thu Sep 26 08:50:21 CDT 2013, null), Array(JamieMorrow1, RT @DarrenDalrymple: Are you a recent computer science graduate (or similar course) looking to start your career with a global software h...
+
+
+val filtered = splitTab.filter (x => x.size > 2)
+
+filtered.collect()
+
+res5: Array[Array[String]] = Array(Array(DarrenDalrymple, Are you a recent computer science graduate (or similar course) looking to start your career with a global software house? Get in touch ASAP, en, Thu Sep 26 08:25:42 CDT 2013, null), Array(Tori_Mills, RT @DarrenDalrymple: Are you a recent computer science graduate (or similar course) looking to start your career with a global software hou¡­, en, Thu Sep 26 08:27:22 CDT 2013, null), Array(McLean7_, RT @DarrenDalrymple: Are you a recent computer science graduate (or similar course) looking to start your career with a global software hou¡­, en, Thu Sep 26 08:50:21 CDT 2013, null), Array(JamieMorrow1, RT @DarrenDalrymple: Are you a recent computer science graduate (or similar course) looking to start your career with a global software h...
+
+
+val words = filtered.map( x => x (1) ).flatMap(x=>x.split("\\W+"))
+
+words.collect()
+
+res8: Array[String] = Array(Are, you, a, recent, computer, science, graduate, or, similar, course, looking, to, start, your, career, with, a, global, software, house, Get, in, touch, ASAP, RT, DarrenDalrymple, Are, you, a, recent, computer, science, graduate, or, similar, course, looking, to, start, your, career, with, a, global, software, hou, RT, DarrenDalrymple, Are, you, a, recent, computer, science, graduate, or, similar, course, looking, to, start, your, career, with, a, global, software, hou, RT, DarrenDalrymple, Are, you, a, recent, computer, science, graduate, or, similar, course, looking, to, start, your, career, with, a, global, software, hou, RT, DarrenDalrymple, Are, you, a, recent, computer, science, graduate, or, similar, course, looking, to, start, your, career, with, a,...
+
+val mapOut = words.map(x=>(x.toLowerCase,1))
+
+mapOut.collect()
+
+res9: Array[(String, Int)] = Array((are,1), (you,1), (a,1), (recent,1), (computer,1), (science,1), (graduate,1), (or,1), (similar,1), (course,1), (looking,1), (to,1), (start,1), (your,1), (career,1), (with,1), (a,1), (global,1), (software,1), (house,1), (get,1), (in,1), (touch,1), (asap,1), (rt,1), (darrendalrymple,1), (are,1), (you,1), (a,1), (recent,1), (computer,1), (science,1), (graduate,1), (or,1), (similar,1), (course,1), (looking,1), (to,1), (start,1), (your,1), (career,1), (with,1), (a,1), (global,1), (software,1), (hou,1), (rt,1), (darrendalrymple,1), (are,1), (you,1), (a,1), (recent,1), (computer,1), (science,1), (graduate,1), (or,1), (similar,1), (course,1), (looking,1), (to,1), (start,1), (your,1), (career,1), (with,1), (a,1), (global,1), (software,1), (hou,1), (rt,1), (darr...
+
+val reduceOut = mapOut.reduceByKey(_+_)
+
+mapOut.collect()
+
+res10: Array[(String, Int)] = Array((georgesstpierre,1), (sumerge,1), (agv9hw0gt1,1), (yun,6), (mohyo_soreoluwa,2), (kukhcwvshp,1), (fpstksa4ko,1), (sc_cycling,2), (been,67), (lhoo,1), (crying,2), (hmehpwzh0a,1), (thanksforcalling,1), (clients,6), (cojostyle,2), (wesupportmyk,1), (unisa,10), (ginoogle,1), (airinah,1), (dbmkssbbnj,1), (ignore,10), (wqcsx5fxwd,1), (zimbabwean,1), (bdcecum9pz,1), (energizing,1), (vinit,3), (sarasota,10), (84lesxcxkt,1), (dygmatysa9,1), (eo4duf4y5c,1), (fatolutoye,1), (rtgraves,1), (seductive,3), (erected,1), (9ijzyqoh0e,2), (vempiwqxtq,1), (8d6oenlqch,1), (libbyrapple,1), (fljobs,1), (ukai,1), (2msftm8aei,1), (hh4h68s9s9,1), (l4thyvpacy,1), (huat,1), (n2m2vgsmc7,1), (sfo,1), (marykateschmidt,1), (ryerson,1), (sublimecoder,3), (bookhousealbany,1), (fi2teffi...
+
+val swap = reduceOut.map(x => x.swap)
+
+swap.collect()
+
+
+res11: Array[(Int, String)] = Array((1,georgesstpierre), (1,sumerge), (1,agv9hw0gt1), (6,yun), (2,mohyo_soreoluwa), (1,kukhcwvshp), (1,fpstksa4ko), (2,sc_cycling), (67,been), (1,lhoo), (2,crying), (1,hmehpwzh0a), (1,thanksforcalling), (6,clients), (2,cojostyle), (1,wesupportmyk), (10,unisa), (1,ginoogle), (1,airinah), (1,dbmkssbbnj), (10,ignore), (1,wqcsx5fxwd), (1,zimbabwean), (1,bdcecum9pz), (1,energizing), (3,vinit), (10,sarasota), (1,84lesxcxkt), (1,dygmatysa9), (1,eo4duf4y5c), (1,fatolutoye), (1,rtgraves), (3,seductive), (1,erected), (2,9ijzyqoh0e), (1,vempiwqxtq), (1,8d6oenlqch), (1,libbyrapple), (1,fljobs), (1,ukai), (1,2msftm8aei), (1,hh4h68s9s9), (1,l4thyvpacy), (1,huat), (1,n2m2vgsmc7), (1,sfo), (1,marykateschmidt), (1,ryerson), (3,sublimecoder), (1,bookhousealbany), (1,fi2tef...
+
+val sort = swap.sortByKey(false)
+
+sort.collect()
+
+res12: Array[(Int, String)] = Array((14178,t), (13183,http), (12795,co), (11510,your), (9703,career), (9419,power), (7278,to), (6827,a), (5710,in), (5599,the), (5437,graduate), (5436,rt), (5387,you), (4711,of), (4197,""), (4178,and), (4086,computer), (3869,with), (3831,science), (3416,degree), (2590,information), (2553,software), (2549,for), (2532,technology), (2472,i), (2312,engineering), (2220,is), (2181,job), (1892,it), (1758,s), (1693,have), (1566,at), (1409,feng), (1409,shui), (1346,jobs), (1316,en), (1214,on), (1150,more), (1128,from), (1128,or), (1089,this), (1032,how), (994,up), (977,get), (946,help), (938,will), (908,life), (863,my), (844,are), (818,can), (799,an), (782,by), (775,should), (758,that), (753,new), (739,book), (723,practical), (713,via), (696,guide), (684,need), (6...
+
+sort.take(100)
+
+res13: Array[(Int, String)] = Array((14178,t), (13183,http), (12795,co), (11510,your), (9703,career), (9419,power), (7278,to), (6827,a), (5710,in), (5599,the), (5437,graduate), (5436,rt), (5387,you), (4711,of), (4197,""), (4178,and), (4086,computer), (3869,with), (3831,science), (3416,degree), (2590,information), (2553,software), (2549,for), (2532,technology), (2472,i), (2312,engineering), (2220,is), (2181,job), (1892,it), (1758,s), (1693,have), (1566,at), (1409,shui), (1409,feng), (1346,jobs), (1316,en), (1214,on), (1150,more), (1128,or), (1128,from), (1089,this), (1032,how), (994,up), (977,get), (946,help), (938,will), (908,life), (863,my), (844,are), (818,can), (799,an), (782,by), (775,should), (758,that), (753,new), (739,book), (723,practical), (713,via), (696,guide), (684,need), (6...
+
+val top100RDD = sc.parallelize (sort.take(100))
+
+top100RDD.saveAsTextFile("top100RDD")
