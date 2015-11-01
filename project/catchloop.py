@@ -2,15 +2,15 @@ import urllib.request
 import urllib.parse
 import re
 
+realm = "illidan"
+
 fo = open("illidan.txt", "w+")
 
+html = urllib.request.urlopen('http://www.wowprogress.com/apoints/us/illidan/').read()
+
 j = 0
-while j < 20:
+while j < 197:
 
-    j = j + 1
-
-    q = str(j)
-    html = urllib.request.urlopen('http://www.wowprogress.com/apoints/us/illidan/char_rating/next/'+q).read()
 
     div = re.findall(r'<tr><td>(.*?)</td></tr>', str(html))
 
@@ -50,10 +50,10 @@ while j < 20:
             #print(str(charLink))
             href = urllib.request.urlopen('http://us.battle.net/wow/en/character/'+ charLink + '/achievement#').read()
             char = re.findall(r'<div class="bar-contents">(.*?)</div>', str(href))
-
+            faction = re.findall(r'profile-wrapper profile-wrapper-(.*?)">\\n\\n\\t\\t', str(href))
             pat = '\xc2\xa0'
 
-            linein = ""
+            linein = faction[0] + "\t"
 
             for eachP in char:
 
@@ -75,9 +75,14 @@ while j < 20:
         else:
             guild = 'N/A'
 
-        resultLine = charRank + "\t" + race + "\t" + charClass + "\t" + charname + "\t" + guild + "\t" + linein + "\n"
+        resultLine = charRank + "\t" + race + "\t" + charClass + "\t" + charname+ "\t"+ realm + "\t" + guild + "\t" + linein + "\n"
         print(resultLine )
         # print("\n")
         fo.write(resultLine)
+
+    q = str(j)
+    html = urllib.request.urlopen('http://www.wowprogress.com/apoints/us/illidan/char_rating/next/'+q).read()
+    j = j + 1
+
 print("done")
 fo.close()
