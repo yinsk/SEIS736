@@ -1,20 +1,4 @@
 
-$ hadoop fs -ls
-Found 13 items
-drwx------   - yin00007 supergroup          0 2015-10-19 19:00 .Trash
-drwxr-xr-x   - yin00007 supergroup          0 2015-10-31 19:15 .sparkStaging
-drwx------   - yin00007 supergroup          0 2015-10-26 23:10 .staging
-drwxr-xr-x   - yin00007 supergroup          0 2015-09-28 16:27 combiner
-drwxr-xr-x   - yin00007 supergroup          0 2015-10-01 17:56 combiner2
-drwxr-xr-x   - yin00007 supergroup          0 2015-10-04 21:38 nyse
-drwxr-xr-x   - yin00007 supergroup          0 2015-10-09 15:59 nyse1
-drwxr-xr-x   - yin00007 supergroup          0 2015-10-31 21:25 top100RDD
-drwxr-xr-x   - yin00007 supergroup          0 2015-10-14 16:09 tweetclean
-drwxr-xr-x   - yin00007 supergroup          0 2015-10-16 19:07 tweetclean2
-drwxr-xr-x   - yin00007 supergroup          0 2015-10-16 15:57 tweetcount
-drwxr-xr-x   - yin00007 supergroup          0 2015-09-28 16:39 wordcount
-drwxr-xr-x   - yin00007 supergroup          0 2015-10-01 17:49 wordcount2
-
 $ hadoop fs -cat top100RDD/*
 (14178,t)
 (13183,http)
