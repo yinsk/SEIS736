@@ -54,6 +54,6 @@ val top100 = sort.top(100)
 
 res13: Array[(Int, String)] = Array((14178,t), (13183,http), (12795,co), (11510,your), (9703,career), (9419,power), (7278,to), (6827,a), (5710,in), (5599,the), (5437,graduate), (5436,rt), (5387,you), (4711,of), (4197,""), (4178,and), (4086,computer), (3869,with), (3831,science), (3416,degree), (2590,information), (2553,software), (2549,for), (2532,technology), (2472,i), (2312,engineering), (2220,is), (2181,job), (1892,it), (1758,s), (1693,have), (1566,at), (1409,shui), (1409,feng), (1346,jobs), (1316,en), (1214,on), (1150,more), (1128,or), (1128,from), (1089,this), (1032,how), (994,up), (977,get), (946,help), (938,will), (908,life), (863,my), (844,are), (818,can), (799,an), (782,by), (775,should), (758,that), (753,new), (739,book), (723,practical), (713,via), (696,guide), (684,need), (6...
 
-val top100RDD = sc.parallelize (top100)
+scala> val top100RDD = sc.parallelize (top100,1)
 
 top100RDD.saveAsTextFile("top100RDD")
