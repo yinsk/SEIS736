@@ -1,0 +1,5 @@
+hadoop fs -libjars /home/yin00007/tfidf.jar -text ./tfidfsample/*
+
+hadoop jar tfidf.jar edu.stthomas.gps.tfidf.tfidfDriver /SEIS736/tfidf/* tfidf
+
+hadoop fs -libjars /home/yin00007/tfidf.jar -text ./tfidf/* | head -30
