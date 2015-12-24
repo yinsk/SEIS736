@@ -18,10 +18,6 @@ public class ImageCounterMapper extends Mapper<LongWritable, Text, Text, IntWrit
   public void map(LongWritable key, Text value, Context context)
       throws IOException, InterruptedException {
 
-    /*
-     * TODO implement
-     */
-	  
 	  String line = value.toString().toLowerCase();
 	  
 	  if (line.contains("gif")){
