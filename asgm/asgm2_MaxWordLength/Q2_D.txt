@@ -1,0 +1,14 @@
+Need two more if statement, 
+
+  wordList = woradList[]
+  
+  if wordlength >= maxwordlength {
+    
+    if wordlength = maxwordlength { 
+    wordList [] +
+    }
+    
+    else{
+    wordList = new wordList [word]
+    }
+  }
