@@ -1,0 +1,29 @@
+run WC
+
+hadoop fs -rm -r wordcounts
+
+//use eclipse jar the wordcount to workspace/exercise
+
+cd workspace/exercise
+
+hadoop jar wordcount.jar stubs.wordcount shakespeare wordcount
+
+
+
+run combiner
+
+hadoop fs -rm -r combiner
+
+hadoop jar combiner.jar stubs.WordCountDriver shakespeare combiner
+
+
+
+on cluster:
+
+$ hadoop fs -ls /SEIS736
+$ hadoop fs -ls /SEIS736/gutenberg
+
+hadoop jar wordcount.jar stubs.WordCount /SEIS736/gutenberg wordcount
+hadoop jar combiner.jar stubs.WordCountDriver /SEIS736/gutenberg combiner
+
+
