@@ -1,0 +1,5 @@
+hadoop jar StockChange.jar stubs.StockDriver /SEIS736/NYSE nyse
+
+hadoop fs -ls ./nyse
+
+hadoop fs -cat ./nyse/part-r-00000
