@@ -17,8 +17,6 @@ public class classMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 	 * to 
 	 * alliance 1
 	 */
-	
-	
 
 	@Override
 	public void map(LongWritable key, Text value, Context context)
