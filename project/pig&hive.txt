@@ -1,0 +1,17 @@
+grunt> overall = LOAD './project/data/allData' using PigStorage ('\n') as (record);
+grunt> group_all = group overall all;
+grunt> over = FOREACH group_all GENERATE COUNT(overall);
+grunt> dump over
+(341321)
+
+
+drop table yin_sortTop208;
+CREATE EXTERNAL TABLE yin_sortTop208 (count int, ID int, title string)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t'
+STORED AS TEXTFILE LOCATION './';
+
+LOAD DATA INPATH './project/result/sortTop208' OVERWRITE INTO TABLE yin_sortTop208;
+
+select count, ID, title 
+from yin_sortTop208 
+where title like '%Realm%';
