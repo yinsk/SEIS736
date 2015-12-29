@@ -1,0 +1,51 @@
+hadoop fs -put data projectData
+
+hadoop jar overall.jar population.popDriver ./project/data/allData ./project/result/faction
+
+hadoop jar overall.jar playerClass.classDriver ./project/data/allData ./project/result/class
+
+hadoop jar overall.jar playerRace.raceDriver ./project/data/allData ./project/result/race
+
+hadoop jar overall.jar guild.guildDriver ./project/data/allData ./project/result/guild
+
+hadoop jar overall.jar guildSort.guildSortDriver ./project/result/guild ./project/result/guildsort
+
+hadoop jar overall.jar preprocessing.preDriver ./project/data/allData ./project/result/preAllData
+
+########################
+part2
+########################
+python:
+
+hadoop fs -rm -r ./project/result/preNo1s
+
+hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.6.0-mr1-cdh5.4.5.jar -D mapred.reduce.tasks=1 \
+-input ./project/data/No1s/* -output ./project/result/preNo1s \
+-file /home/yin00007/project/jar/findNotInMapper.py \
+-mapper findNotInMapper.py  \
+-file /home/yin00007/project/jar/findNotInReducer.py  \
+-reducer findNotInReducer.py
+
+hadoop fs -put achNoTitlePoint.txt ./project/result/preNo1s/
+
+hadoop jar part2.jar joinTwo.joinDriver ./project/result/preNo1s ./project/result/No1s2
+
+hadoop jar part2.jar sortJoin.SortDriver ./project/result/No1s2 ./project/result/sortNo1s2
+
+
+hadoop fs -rm -r ./project/result/preTop208
+
+hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.6.0-mr1-cdh5.4.5.jar -D mapred.reduce.tasks=1 \
+-input ./project/data/top208/* -output ./project/result/preTop208 \
+-file /home/yin00007/project/jar/findNotInMapper.py \
+-mapper findNotInMapper.py  \
+-file /home/yin00007/project/jar/findNotInReducer.py  \
+-reducer findNotInReducer.py
+
+
+hadoop jar part2.jar joinTwo.joinDriver ./project/result/preTop208 ./project/result/top208
+
+hadoop jar part2.jar joinTwo.joinDriver ./project/result/preTop208 ./project/result/top208_2
+
+hadoop jar part2.jar sortJoin.SortDriver ./project/result/top208 ./project/result/sortTop208
+

@@ -1,0 +1,7 @@
+val lines = sc.textFile("./project/data/euData/")
+val splitTab = lines.map(x => x.split("\\t"))
+val filtered = splitTab.filter (x => x.size > 7).filter (x=>x(7).toInt>1000)
+
+Total:
+val totalpoint = filtered.map(x=>x(7).toDouble)
+totalpoint.sum()/totalpoint.count()/2510
