@@ -16,8 +16,6 @@ public class joinMapper extends Mapper<LongWritable, Text, Text, Text> {
 	 * 211     105
 	 * 211	"title":"Storm Glory"	10
 	 */
-	
-	
 
 	@Override
 	public void map(LongWritable key, Text value, Context context)
