@@ -6,8 +6,6 @@ import org.apache.hadoop.mapreduce.Partitioner;
 
 public class racePartitioner<K2, V2> extends Partitioner<Text, FloatWritable> {
 
-
-
   public int getPartition(Text key, FloatWritable value, int numReduceTasks) {
  
 	 String s = key.toString();
@@ -23,11 +21,9 @@ public class racePartitioner<K2, V2> extends Partitioner<Text, FloatWritable> {
 	 }else{
 		 numberReudce = 3;
 	 }
-	 
-	 
+
 	return numberReudce;
-	 
-     
+   
   }
 }
 
